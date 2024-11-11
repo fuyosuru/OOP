@@ -18,10 +18,10 @@ int main()
     cout<<"a++: "<<a++<<"\n";
     cout<<"--b: "<<--b<<"\n";
     cout<<"b--: "<<b--<<"\n";
-    cout<<"a==b: "<<(a==b)<<"\n";
-    cout<<"a!=b: "<<(a!=b)<<"\n";
-    cout<<"a>b: "<<(a>b)<<"\n";
-    cout<<"a<b: "<<(a<b)<<"\n";
+    cout<<"a==b: "<<(a==b?"True":"False")<<"\n";
+    cout<<"a!=b: "<<(a!=b?"True":"False")<<"\n";
+    cout<<"a>b: "<<(a>b?"True":"False")<<"\n";
+    cout<<"a<b: "<<(a<b?"True":"False")<<"\n";
 
     return 0;
 }
