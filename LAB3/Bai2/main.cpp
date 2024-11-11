@@ -17,7 +17,7 @@ int main()
     cout<<"a+2: "<<a+2<<"\n";
     cout<<"2+a: "<<2+a<<"\n";
     cout<<"a-3: "<<a-3<<"\n";
-    cout<<"a=3?: "<<(a==3)<<"\n";
+    cout<<"a==3: "<<(a==3?"True":"False")<<"\n";
     cout<<"a+2.14: "<<a+2.14<<"\n";
     cout<<"a-b: "<<hieu<<"\n";
     cout<<"a/b: "<<thuong<<"\n";
